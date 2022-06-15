@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,21 @@
 body{
     background-color: #23252C;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.card{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1A1B21;
+    border-radius: 15px;
+    margin-top: 10%;
+    /* transform: translate(0%,10%); */
 }
 
 .imgbox{
@@ -18,6 +34,8 @@ body{
 
 .imgbox img{
     width: 320px;
+    border-radius: 15px 15px 0 0;
+
 }
 
 .imgbox h1{
@@ -26,4 +44,61 @@ body{
 
 .imgbox h3{
     color: #F3BF99;
+}
+
+.btn{
+   display: flex;
+   justify-content: space-between;
+}
+
+.btn button{
+    cursor: pointer;
+    margin: 12px;
+    font-size: 15px;
+    padding:  .50em .90em;
+    border-radius: 10px;
+}
+
+.linkedin{
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+
+.about{
+    padding: 1em;
+}
+.interest{
+    padding: 1em;
+}
+
+h2{
+    color: #F5F5F5;
+}
+
+.text{
+    color: #DCDCDC;
+}
+
+.social{
+    background-color: #161619;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+
+}
+.social ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .5em 0 .5em 0;
+}
+
+.social ul li{
+    /* margin-right: 30px; */
+    font-size: 30px;
+    list-style: none;
+}
+
+.social ul li a{
+    text-decoration: none;
+    color: #918E9B;
 }
